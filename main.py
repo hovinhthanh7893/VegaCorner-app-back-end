@@ -1,10 +1,10 @@
 # Import FastAPI
 from fastapi import FastAPI
 
-# Create app
+# Initialize the app
 app = FastAPI()
 
-# Create end-point
+# Create endpoint
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
