@@ -11,7 +11,9 @@ or
 ## Install package
 
 > pipenv install "fastapi"
+
 > pipenv install "uvicorn[standard]"
+
 > pipenv install pydantic
 
 ## Run server
