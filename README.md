@@ -10,11 +10,13 @@ or
 
 ## Install package
 
-> pipenv install "fastapi"
+> pipenv install fastapi
 
 > pipenv install "uvicorn[standard]"
 
 > pipenv install pydantic
+
+> pipenv install sqlalchemy
 
 ## Run server
 
